@@ -25,7 +25,7 @@ The information based on this website is fictional being as zombies are currentl
 
 This is my first milestone project with the Code Institute on the Full Stack Web Devlopment Program the main aim is to produce a responsive website with a minimum of three pages using  **CSS** and **HTML5**
 
-[Back to top] (#Zombie survival uk)
+[Back to top](#zombie-survival-uk)
 
 
 # User Experience
@@ -45,5 +45,21 @@ Once I was happy with the basic design I produced a digital wireframe using Bals
 I was unable to make a wireframe for a sign-up page as unhappy with the options available to me on Balsamiq. 
 
 Sketchbook Design:
-![sketchbook Wire frame](assets/readme-assets/sketchbook1.jpg "A rough wireframe design in a sketchbook desktop-style")
-![sketchbook Wire frame](assets/readme-assets/sketchbook2.jpg "A rough wireframe design in a sketchbook mobile style")
+![sketchbook Wireframe](assets/readme-assets/sketchbook2.jpg "A rough wireframe design in a sketchbook desktop style")
+![sketchbook Wireframe](assets/readme-assets/sketchbook1.jpg "A rough wireframe design in a sketchbook mobile style")
+
+
+Balsamiq Design:
+![Balsamiq Wireframe](assets/readme-assets/firstpage.png "A rough wireframe design in Balsamiq desktop style page-one")
+![Balsamiq Wireframe](assets/readme-assets/firstpagemob.png "A rough wireframe design in Balsamiq mobile style page-one")
+![Balsamiq Wireframe](assets/readme-assets/secondpage.png "A rough wireframe design in Balsamiq desktop style page-two")
+![Balsamiq Wireframe](assets/readme-assets/secondpagemob.png "A rough wireframe design in Balsamiq mobile style page-two")
+![Balsamiq Wireframe](assets/readme-assets/thirdpage.png "A rough wireframe design in Balsamiq desktop style page-three")
+![Balsamiq Wireframe](assets/readme-assets/thirdpagemob.png "A rough wireframe design in Balsamiq mobile style page-three")
+![Balsamiq Wireframe](assets/readme-assets/fourthpage.png "A rough wireframe design in Balsamiq desktop style page-four")
+![Balsamiq Wireframe](assets/readme-assets/fourthpagemob.png "A rough wireframe design in Balsamiq mobile style page-four")
+
+### Photos
+
+
+[Back to top](#zombie-survival-uk)
