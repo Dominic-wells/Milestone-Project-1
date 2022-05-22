@@ -4,17 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Icons from fontawesome-->
+    <script src="https://kit.fontawesome.com/95a22f7bcf.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,500;8..144,700&display=swap" rel="stylesheet">
+    
+    <!--Css stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Zombie survival uk</title>
 </head>
-<body>
-    <header class="mynav">
-        <nav class="navbar sticky-top navbar-light bg-light">
-            <a class="navbar-brand" href="#">Zombie survival uk</a>
-          </nav>
 
-</header>
-    
+<body>
+  <header>
+    <!--Navbar Start-->
+    <nav class="navbar container-fluid">
+      <!--Navbar Brand logo with link to home-->
+      <div class="container-fluid navbar-nav-box">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="Zombie survival uk" class="logo d-inline-block align-top"> 
+       <!--Navbar links-->
+      <ul class="navbar-nav">
+        <!--A home link what will not display on smaller screens -->
+        <li class="nav-item active  d-none d-sm-block">
+          <a class="nav-link" href="index.html" aria-label="Go to the Home page"><i class="fa-solid fa-tent"
+             aria-hidden="true"></i>Home</a>
+             <!--Navbar links with Icons and text-->
+       </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Zombies.html" aria-label="Go to Zombie page"><i class="fa-solid fa-biohazard"
+            aria-hidden="true"></i>Zombies</a>
+        <li class="nav-item">
+          <a class="nav-link" href="Survival.html" aria-label="Go to Survival page"><i class="fa-solid fa-hand-fist text-center"
+            aria-hidden="true"></i>Survive</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Enlist.html" aria-label="Go to Enlist page"><i class="fa-solid fa-people-roof"
+            aria-hidden="true"></i>Enlist</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <!--End of Navbar-->
+
+    <!--Page Header start-->
+   <section class="container-fluid" id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 hero-box">
+          <h1>Are You ready?</h1>
+          <h2>Can you survive?</h2>
+          <a href="#" class="btn-Enlist">Join The Resistance</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid">
+    <div class="row d-flex">
+      <div class="col-lg-6 order-last keep-reading-photo">
+        <img class="w-100 shadow apocalypse-photo" src="/assets/images/apocalypse.jpg" alt="A male and female in their teens
+         wearing long coats and backpacks. Both are walking through rubble in an urban apocalyptic environment" />
+      </div>
+      <div class="col-lg-6 order-first keep-reading-text">
+        <div class="p-5 mt-4 keep-reading-box">
+          <h1 class="display-4">Keep reading..</h1>
+          <p>Honestly, ask yourself, are you ready? Can you survive? Do you even have a plan? Fear not, you are not alone. While the odds of an apocalyptic event originating from a fictional mythological revenant such as a zombie are low, unrealistic or even the ravings of a lunatic, you owe it to yourself and your loved ones to be prepared. Just in case.</p>
+          <p>You might not know it yet but you are lucky to have found this site so keep reading and keep learning ...you're gonna need it...well probably not...</p>
+        </div>
+      </div>
+  </section>
+
+
+   
 </body>
 </html>
