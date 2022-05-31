@@ -3,40 +3,40 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #2F4858; */
-	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	font-family: "Roboto Condensed", sans-serif;
 	color: #000;
 }
 
 /* Fonts */
 
 h1 {
-	font-family: 'Anton', sans-serif;
+	font-family: "Anton", sans-serif;
 }
 
 .light-h1 {
-	font-family: 'Anton', sans-serif;
+	font-family: "Anton", sans-serif;
 	color: #bfcbc8;
 }
 
 .light-p {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 	color: #bfcbc8;
 }
 
 .dark-h1 {
-	font-family: 'Roboto Flex', sans-serif;
-	color: #EB9928;
+	font-family: "Roboto Flex", sans-serif;
+	color: #eb9928;
 }
 
 .dark-p {
-	font-family: 'Mukta', sans-serif;
-	color: #EB9928;
+	font-family: "Mukta", sans-serif;
+	color: #eb9928;
 }
 
 h2 {
-	font-family: 'Anton', sans-serif;
+	font-family: "Anton", sans-serif;
 }
-
 
 /* NavBar */
 
@@ -53,7 +53,6 @@ h2 {
 }
 
 .logo {
-
 	padding: 0;
 	margin: 5px;
 	max-width: 100%;
@@ -61,17 +60,14 @@ h2 {
 	display: block;
 }
 
-
 .navbar-nav {
 	flex-direction: row;
 	width: 55vw;
-
 }
 
 .navbar-brand {
 	margin: 0;
 	padding: 0;
-
 }
 
 .nav-item {
@@ -99,23 +95,19 @@ h2 {
 }
 
 .nav-link:hover {
-	color: #1E3030;
+	color: #1e3030;
 }
-
-
 
 .active a {
 	color: #fcf1c8;
 }
 
-@media screen and (max-width:420px) {
-
+@media screen and (max-width: 420px) {
 	.navbar-box {
 		justify-content: center !important;
 		align-content: center;
 	}
 }
-
 
 /* ---- Landing page ---- */
 
@@ -130,7 +122,7 @@ h2 {
 
 .hero-box {
 	padding: 0;
-	background-color: #1E3030;
+	background-color: #1e3030;
 	text-align: center;
 	border-radius: 10px;
 }
@@ -139,7 +131,7 @@ h2 {
 	margin: 0;
 	font-size: 46px;
 	font-weight: 400;
-	font-family: 'Anton', sans-serif;
+	font-family: "Anton", sans-serif;
 	color: #fff;
 }
 
@@ -147,11 +139,11 @@ h2 {
 	color: #fff;
 	margin: 10px 0 0 0;
 	font-size: 24px;
-	font-family: 'Anton', sans-serif;
+	font-family: "Anton", sans-serif;
 }
 
 #hero .btn-Enlist {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	text-decoration: none;
@@ -168,9 +160,61 @@ h2 {
 }
 
 #hero .btn-Enlist:hover {
-	color: #1E3030;
+	color: #1e3030;
 	background: #fcf1c8;
+}
 
+/* ---- Modal-form ---- */
+
+
+.modal-content {
+	/* background-color: #4a572c; */
+	/* color: #4a572c; */
+}
+
+.modal-header {
+	background-color: #4a572c;
+	justify-content: center;
+}
+
+.form-close {
+	background-color: #fcf1c8;
+	border-color: #fcf1c8;
+	justify-content: left;
+}
+
+.form-close:hover {
+	color: #fcf1c8;
+	background: #1e3030;
+	border-color: #1e3030;
+}
+
+.modal-title {
+	font-family: "Anton", sans-serif;
+	justify-content: center;
+	color: #fff;
+}
+
+
+.modal-body {
+	background-color: #fcf1c8;
+}
+
+.modal-footer {
+	background-color: #4a572c;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-submit {
+	background-color: #fcf1c8;
+	border-color: #fcf1c8;
+}
+
+.btn-submit:hover {
+	color: #fcf1c8;
+	background: #1e3030;
+	border-color: #1e3030;
 }
 
 .landing-page-container {
@@ -181,11 +225,10 @@ h2 {
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover
+	-o-background-size: cover;
 }
 
-@media screen and (max-width:420px) {
-
+@media screen and (max-width: 420px) {
 	#hero {
 		width: 100%;
 		height: 100vh;
@@ -209,7 +252,6 @@ h2 {
 	margin-bottom: 10px;
 }
 
-
 /*---- Footer ----*/
 
 .footer {
@@ -220,12 +262,11 @@ h2 {
 }
 
 .footer-enlist-box {
-
 	justify-content: center;
 }
 
 .btn-Enlist-footer {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	letter-spacing: 1px;
@@ -237,12 +278,12 @@ h2 {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	color: #fcf1c8;
-	background: #1E3030;
-	border: 2px solid #1E3030;
+	background: #1e3030;
+	border: 2px solid #1e3030;
 }
 
 .btn-Enlist-footer:hover {
-	color: #1E3030;
+	color: #1e3030;
 	background: #fcf1c8;
 }
 
@@ -269,9 +310,8 @@ h2 {
 }
 
 .footer-home-link:hover {
-	color: #1E3030;
+	color: #1e3030;
 	font-weight: bold;
-
 }
 
 .footer-email-link {
@@ -281,10 +321,10 @@ h2 {
 }
 
 .footer-email-link:hover {
-	color: #1E3030;
+	color: #1e3030;
 	text-decoration: underline;
 	text-decoration-style: double;
-	text-decoration-color: #1E3030;
+	text-decoration-color: #1e3030;
 	font-weight: bold;
 }
 
@@ -317,19 +357,16 @@ h2 {
 /*---- Zombies page ----*/
 
 .zombie-info-text-top {
-
 	margin-top: 50px;
 }
 
-/* #zombie-info .h2 {
+#zombie-info .h2 {
 	margin-bottom: 0.5em;
-	color: #1E3030;
+	color: #1e3030;
 	margin: 10px 0 0 0;
 	font-size: 24px;
-	font-family: 'Anton', sans-serif;
-	
-
-} */
+	font-family: "Anton", sans-serif;
+}
 
 .quote {
 	color: black;
@@ -339,25 +376,23 @@ h2 {
 }
 
 .quote i {
-	color: #1E3030;
+	color: #1e3030;
 	font-size: 32px;
 }
 
 .card-title {
 	font-size: 20px;
 	font-style: bold;
-	color: #1E3030;
+	color: #1e3030;
 	/* color: red; */
-	font-family: 'Roboto Flex', sans-serif;
+	font-family: "Roboto Flex", sans-serif;
 	/* font-family: 'Anton', sans-serif; */
-
-
 }
 
 .card-body {}
 
 .btn-imdb {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 	font-weight: 600;
 	font-size: 16px;
 	text-decoration: none;
@@ -371,14 +406,31 @@ h2 {
 }
 
 .btn-imdb:hover {
-	color: #1E3030;
+	color: #1e3030;
 	background: #fcf1c8;
+}
+
+.zombie-info-text-bot b {
+	color: red;
+}
+
+/*---- List on zombie page with help from https://stackoverflow.com/questions/67078812/how-to-replace-the-dot-from-an-ordered-list-of-type-a ----*/
+
+.zombie-info-text-bot ol {
+	list-style-type: none;
+	counter-reset: elementcounter;
+	padding-left: 0;
+}
+
+.zombie-info-text-bot li:before {
+	content: "Rule " counter(elementcounter) ". ";
+	counter-increment: elementcounter;
+	font-weight: bold;
 }
 
 /*---- Enlist page ----*/
 
-
-.zombie-video-box {
+/* .zombie-video-box {
 	position: relative;
 	padding-bottom: 56.25%;
 	height: 0;
@@ -390,7 +442,7 @@ h2 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
+} */
 
 .resistance-box {
 	background-color: #4a572c;
@@ -403,11 +455,15 @@ fieldset {
 }
 
 .text-box {
+	height: 300px;
+	width: 95%;
+	margin-top: 8px;
+}
 
-
-
-	width: 400px;
-
-
-
+/* Gradient transparent - color - transparent */
+/*---- https://css-tricks.com/examples/hrs/ ----*/
+hr.shadow {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
