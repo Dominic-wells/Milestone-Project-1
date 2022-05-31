@@ -114,7 +114,7 @@ h2 {
 #hero {
 	width: 100%;
 	height: 100vh;
-	background: url("assets/images/zombie-main.jpg") top center no-repeat;
+	background: url(/assets/images/zombie-main.jpg) top center no-repeat;
 	background-size: cover;
 	position: relative;
 	padding-top: 300px;
@@ -217,6 +217,7 @@ h2 {
 	border-color: #1e3030;
 }
 
+/* 
 .landing-page-container {
 	padding: 0;
 	background: url("assets/images/zombie-start.jpg") no-repeat center center;
@@ -226,13 +227,13 @@ h2 {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-}
+} */
 
 @media screen and (max-width: 420px) {
 	#hero {
 		width: 100%;
 		height: 100vh;
-		background: url("assets/images/zombie-main.jpg") top center no-repeat;
+		background: url(assets/images/zombie-main.jpg) top center no-repeat;
 		background-size: cover;
 		position: relative;
 		padding-top: 50px;
