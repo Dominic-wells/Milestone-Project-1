@@ -1,71 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Icons from fontawesome-->
-    <script src="https://kit.fontawesome.com/95a22f7bcf.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--Icons from fontawesome-->
+  <script src="https://kit.fontawesome.com/95a22f7bcf.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,500;8..144,700&display=swap" rel="stylesheet">
-    
-    <!--Css stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,500;8..144,700&display=swap"
+    rel="stylesheet">
 
-     <!--Meta-description-->
-     <title>Zombie Survival Uk|Live, Laugh, Learn </title>
-    <meta name="description" content="A comical yet informative zombie survival hangout with information about zombie types, tactics and general survival in a zombie-filled United Kingdom.">
+  <!--Css stylesheet-->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-   
+  <!--Meta-description-->
+  <title>Zombie Survival Uk|Live, Laugh, Learn </title>
+  <meta name="description"
+    content="A comical yet informative zombie survival hangout with information about zombie types, tactics and general survival in a zombie-filled United Kingdom.">
+
+
 </head>
 
 <body>
+
   <header>
     <!--Navbar Start-->
     <nav class="navbar container-fluid ">
 
       <!--Navbar Brand logo with link to home-->
-       <div class="navbar-box container-fluid">
+      <div class="navbar-box container-fluid">
         <a class="navbar-brand d-flex" href="index.html">
           <img src="assets/images/logo.png" alt="Zombie survival uk" class="logo d-inline-block align-top">
-      <ul class="navbar-nav">
-        <!--A home link what will not display on smaller screens -->
-        <li class="nav-item active  d-none d-sm-block">
-          <a class="nav-link" href="index.html" aria-label="Go to the Home page"><i class="fa-solid fa-tent"
-             aria-hidden="true"></i>Home</a>
-             <!--Navbar links with Icons and text-->
-       </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Zombies.html" aria-label="Go to Zombie page"><i class="fa-solid fa-biohazard"
-            aria-hidden="true"></i>Zombies</a>
-        <li class="nav-item">
-          <a class="nav-link" href="Survival.html" aria-label="Go to Survival page"><i class="fa-solid fa-hand-fist text-center"
-            aria-hidden="true"></i>Survive</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Enlist.html" aria-label="Go to Enlist page"><i class="fa-solid fa-people-roof"
-            aria-hidden="true"></i>Enlist</a>
-        </li>
-      </ul>
+          <ul class="navbar-nav">
+            <!--A home link what will not display on smaller screens -->
+            <li class="nav-item active  d-none d-sm-block">
+              <a class="nav-link" href="index.html" aria-label="Go to the Home page"><i class="fa-solid fa-tent"
+                  aria-hidden="true"></i>Home</a>
+              <!--Navbar links with Icons and text-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Zombies.html" aria-label="Go to Zombie page"><i class="fa-solid fa-biohazard"
+                  aria-hidden="true"></i>Zombies</a>
+            <li class="nav-item">
+              <a class="nav-link" href="Survival.html" aria-label="Go to Survival page"><i
+                  class="fa-solid fa-hand-fist text-center" aria-hidden="true"></i>Survive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Enlist.html" aria-label="Go to Enlist page"><i class="fa-solid fa-people-roof"
+                  aria-hidden="true"></i>Enlist</a>
+            </li>
+          </ul>
     </nav>
   </header>
-    <!--End of Navbar-->
+  <!--End of Navbar-->
 
-   
+  <div class="container zombie-info-text-top" id="Zombie-info">
+    <!-- </div class="container"> -->
+    <h1 class="display-4 know-your-enemy-text">Fight, Run or Hide..</h1>
+    <h2 class="quote"><i>"To know your Enemy you must become your Enemy"</i> -Sun Tzu-The Art of War</h2>
+    <p>When you find yourself facing the end times it's good to know not only how to defend yourself from an attacking
+      zombie but how to defend yourself from the big wild world. A group... A herd of zombies if you will, will pose a
+      highly unique set of challenges to your life but So will transforming into an ice block after wearing the wrong
+      protective clothing, in the wrong shelter at the wrong time of the year.
+    </p>
+    <p>Okay… so it’s unlikely to happen, but knowing what it takes to survive isn't all that bad right?</p>
+    <p>Where would you go? What would have in your kit? Would you have the skills needed to rebuild?</p>
+  </div>
+  </div>
 
-  <!--Footer-->
+  <hr class="shadow">
 
-  <!--Call to Acation button-->
-  <footer>
+  <section class="container my-5">
+    <div class="row d-flex">
+      <div class="col-lg-6 order-lg-2">
+        <img class="w-100 shadow apocalypse-photo" src="/assets/images/Water.webp" alt="A male and female in their teens
+           wearing long coats and backpacks. Both are walking through rubble in an urban apocalyptic environment" />
+        </div>
+      <div class="col-lg-6">
+        <div class="p-5 mt-4">
+          <h1 class="display-4">Water</h1>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="w-100 shadow apocalypse-photo" src="assets/images/Food.webp" />
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5 mt-4">
+              <h1 class="display-4">Food</h1>
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="container my-5">
+      <div class="row d-flex">
+        <div class="col-lg-6 order-lg-2">
+          <img class="w-100 shadow apocalypse-photo" src="/assets/images/Fire.webp" alt="A male and female in their teens
+             wearing long coats and backpacks. Both are walking through rubble in an urban apocalyptic environment" />
+          </div>
+        <div class="col-lg-6">
+          <div class="p-5 mt-4">
+            <h1 class="display-4">Fire</h1>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="w-100 shadow apocalypse-photo" src="assets/images/Weapon.webp" />
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5 mt-4">
+                <h1 class="display-4">Weapon</h1>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+              </div>
+          </div>
+      </div>
+      
+    <section class="container my-5">
+      <div class="row d-flex">
+        <div class="col-lg-6 order-lg-2">
+          <img class="w-100 shadow apocalypse-photo" src="/assets/images/First-Aid.webp" alt="A male and female in their teens
+             wearing long coats and backpacks. Both are walking through rubble in an urban apocalyptic environment" />
+          </div>
+        <div class="col-lg-6">
+          <div class="p-5 mt-4">
+            <h1 class="display-4">First-Aid</h1>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="w-100 shadow apocalypse-photo" src="assets/images/Medication.webp" />
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5 mt-4">
+                <h1 class="display-4">Medication</h1>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+              </div>
+          </div>
+      </div>
+
+      <section class="container my-5">
+        <div class="row d-flex">
+          <div class="col-lg-6 order-lg-2">
+            <img class="w-100 shadow apocalypse-photo" src="/assets/images/Tools.webp" alt="A male and female in their teens
+               wearing long coats and backpacks. Both are walking through rubble in an urban apocalyptic environment" />
+            </div>
+          <div class="col-lg-6">
+            <div class="p-5 mt-4">
+              <h1 class="display-4">Tools</h1>
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="w-100 shadow apocalypse-photo" src="assets/images/Coat.webp" />
+            </div>
+            <div class="col-lg-6">
+              <div class="p-5 mt-4">
+                  <h1 class="display-4">Clothing</h1>
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+                </div>
+            </div>
+        </div>
+
+        <section class="container my-5">
+          <div class="row d-flex">
+            <div class="col-lg-6 order-lg-2">
+              <img class="w-100 shadow apocalypse-photo" src="/assets/images/Hygiene.webp" alt="A male and female in their teens
+                 wearing long coats and backpacks. Both are walking through rubble in an urban apocalyptic environment" />
+              </div>
+            <div class="col-lg-6">
+              <div class="p-5 mt-4">
+                <h1 class="display-4">Hygiene</h1>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+              </div>
+            </div>
+          </section>
+
+        
+    
+
+   <!--Call to Acation button form modal guidance from https://getbootstrap.com/docs/5.0/components/modal/-->
+   <footer>
     <div class=" footer action-btn container-fluid">
       <div class="row">
         <div class="col-sm footer-enlist-box">
-          <a href="#" class="btn-Enlist-footer">Join The Resistance</a>
+          <button type="button" class="btn-Enlist-footer" data-bs-toggle="modal" data-bs-target="#myModal">Join The
+            Resistance</button>
+            
+            <!-- Modal -->
+           <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+             <!-- Modal content-->
+             <div class="modal-content">
+              <div class="modal-header ">
+              <h4 class="modal-title">Enlistment Details</h4>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <legend>Pledge your information to join the survivors</legend>
+                  <label for="firstname">First Name:</label><br>
+                  <input id="firstname" type="text" name="first-name" placeholder="Ikea" required><br>
+                  <label for="surname">Surname:</label><br>
+                  <input id="surname" type="text" name="surname" placeholder="le zombi" required><br>
+                  <label for="email">Email Address:</label><br>
+                  <input id="email" type="email" name="email" placeholder="l33tZslayer@gmail.com" required><br>
+                  <label for="comment">Comments:</label>
+                  <textarea class="form-control" rows="5" id="comments" placeholder="Why Do we need you?"
+                    name="text"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="form-close start" data-bs-dismiss="modal">&times;</button>
+                <button type="submit" class="btn-submit">Submit</button>
+                </form>
+               </div>
+             </div>
+           </div>
+         </div>
         </div>
 
         <!--Links for website-->
@@ -78,8 +253,9 @@
               <a class="footer-index-link" href="Survival.html" aria-label="Survive page link">Survive</a>
               <a class="footer-index-link" href="Enlist.html" aria-label="Enlist page link">Enlist</a>
             </div>
-           <a class="footer-home-link" href="index.html" aria-label="Link to Zombie survival home page">Zombie Survival UK</a>
-           <a class="footer-email-link" href="mailto:cowpic123@hotmail.com" target="_blank">Email Me</a>
+            <a class="footer-home-link" href="index.html" aria-label="Link to Zombie survival home page">Zombie Survival
+              UK</a>
+            <a class="footer-email-link" href="mailto:cowpic123@hotmail.com" target="_blank">Email Me</a>
           </div>
         </div>
 
@@ -87,14 +263,14 @@
         <div class="col-sm footer-brand-links">
           <div class="footer-brand-box">
             <div class="footer-brand-links">
-            <a class="footer-brand-link" href="https://www.facebook.com/" target="_blank" aria-label="link to facebook"><i class="fa-brands fa-facebook"
-             aria-hidden="true"></i></a>
-            <a class="footer-brand-link" href="https://www.amazon.com/" target="_blank" aria-label="link to Amazon"><i class="fa-brands fa-amazon"
-             aria-hidden="true"></i></a>
-            <a class="footer-brand-link" href="https://www.imdb.com/" target="_blank" aria-label="link to Imdb"><i class="fa-brands fa-imdb"
-             aria-hidden="true"></i></a>
-            <a class="footer-brand-link" href="https://www.youtube.com/" target="_blank" aria-label="link to Youtube"><i class="fa-brands fa-youtube"
-             aria-hidden="true"></i></a>
+              <a class="footer-brand-link" href="https://www.facebook.com/" target="_blank"
+                aria-label="link to facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+              <a class="footer-brand-link" href="https://www.amazon.com/" target="_blank" aria-label="link to Amazon"><i
+                  class="fa-brands fa-amazon" aria-hidden="true"></i></a>
+              <a class="footer-brand-link" href="https://www.imdb.com/" target="_blank" aria-label="link to Imdb"><i
+                  class="fa-brands fa-imdb" aria-hidden="true"></i></a>
+              <a class="footer-brand-link" href="https://www.youtube.com/" target="_blank"
+                aria-label="link to Youtube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
             </div>
             <p class="footer-Copyright"><small>&copy; 2022. All Rights Reserved.</small></p>
           </div>
@@ -102,6 +278,8 @@
       </div>
     </div>
   </footer>
-   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 </html>
