@@ -71,7 +71,7 @@ h2 {
 }
 
 .nav-item {
-	width: 45px;
+	width: 48px;
 	height: 100%;
 	padding: 0;
 	margin: 0 auto;
@@ -459,6 +459,25 @@ fieldset {
 	height: 300px;
 	width: 95%;
 	margin-top: 8px;
+}
+
+
+
+.carousel slide {
+	margin-top: 40px;
+}
+
+.carousel-inner {
+	margin-top: 40px;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+.video-box {
+	margin-top: 40px;
 }
 
 /* Gradient transparent - color - transparent */
