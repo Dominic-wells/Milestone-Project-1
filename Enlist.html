@@ -1,116 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Icons from fontawesome-->
-    <script src="https://kit.fontawesome.com/95a22f7bcf.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--Icons from fontawesome-->
+  <script src="https://kit.fontawesome.com/95a22f7bcf.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,500;8..144,700&display=swap" rel="stylesheet">
-    
-    <!--Css stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,500;8..144,700&display=swap"
+    rel="stylesheet" />
 
-     <!--Meta-description-->
-    <title>Zombie Survival Uk|Live, Laugh, Learn </title>
-    <meta name="description" content="A comical yet informative zombie survival hangout with information about zombie types, tactics and general survival in a zombie-filled United Kingdom.">
+  <!--Favicon, Made with https://favicon.io/favicon-generator/-->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
 
-   
+  <!--Css stylesheet-->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+  <!--Meta-description-->
+  <title>Zombie Survival Uk|Live, Laugh, Learn</title>
+  <meta name="description"
+    content="A comical yet informative zombie survival hangout with information about zombie types, tactics and general survival in a zombie-filled United Kingdom." />
 </head>
 
 <body>
-  <header>
-    <!--Navbar Start-->
-    <nav class="navbar container-fluid ">
-
-      <!--Navbar Brand logo with link to home-->
-       <div class="navbar-box container-fluid">
-        <a class="navbar-brand d-flex" href="index.html">
-          <img src="assets/images/logo.png" alt="Zombie survival uk" class="logo d-inline-block align-top">
+  <!-- <header> -->
+  <nav class="navbar container-fluid">
+    <div class="navbar-box container-fluid">
+      <a class="navbar-brand d-flex" href="index.html">
+        <img src="assets/images/logo.png" alt="Zombie survival uk" class="logo d-inline-block align-top" />
+      </a>
       <ul class="navbar-nav">
         <!--A home link what will not display on smaller screens -->
-        <li class="nav-item active  d-none d-sm-block">
+        <li class="nav-item active d-none d-sm-block">
           <a class="nav-link" href="index.html" aria-label="Go to the Home page"><i class="fa-solid fa-tent"
-             aria-hidden="true"></i>Home</a>
-             <!--Navbar links with Icons and text-->
-       </li>
+              aria-hidden="true"></i> Home</a>
+        </li>
+        <!--Navbar links with Icons and text-->
         <li class="nav-item">
           <a class="nav-link" href="Zombies.html" aria-label="Go to Zombie page"><i class="fa-solid fa-biohazard"
-            aria-hidden="true"></i>Zombies</a>
+              aria-hidden="true"></i>Zombies</a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" href="Survival.html" aria-label="Go to Survival page"><i class="fa-solid fa-hand-fist text-center"
-            aria-hidden="true"></i>Survive</a>
+          <a class="nav-link" href="Survival.html" aria-label="Go to Survival page"><i
+              class="fa-solid fa-hand-fist text-center" aria-hidden="true"></i>Survive</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Enlist.html" aria-label="Go to Enlist page"><i class="fa-solid fa-people-roof"
-            aria-hidden="true"></i>Enlist</a>
+              aria-hidden="true"></i>Enlist</a>
         </li>
       </ul>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
-  <div class="zombie-video-box">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/68iV6cED4-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Video Of a zombie wrap from youtube"></iframe>
+  <section class="container zombie-info-text-top">
+    <h1 class="display-4 know-your-enemy-text">Don't Go At IT Alone...</h1>
+    <h2 class="quote">
+      <i>“Alone, we can do so little; together, we can do so much.”</i> -
+      Helen Keller
+    </h2>
+    <p>
+      Sooner or later you're going to need help let's face it, you can't do
+      everything by yourself, right?
+    </p>
+    <p>
+    <P>
+      During the apocalypse, you may choose to survive alone or you may try to form a group with like-minded survivors.
+      If you decide on enlisting fellows into your cause (You really should have some friends at the end times) you will
+      want to make sure they are loyal competent, intelligent and brave. Sadly you will want to avoid anyone that can't
+      (won't) contribute anything or decrease your chances of survival.</P>
+    </p>
+    <p> As a general rule, groups are always superior to lone individuals or
+      pairs, in spite of the logistical and group dynamic problems that can
+      come with mid-size to larger groups.</p>
+    <p>
+      After the apocalypse, Life will become drastically different from what it currently is (if you're not living in a
+      warzone that is). The differences may seem extensive, but people still have the same basic needs; they will need
+      to eat, people will still get sick, and there still needs to be some form of order. Because of this, there are a
+      large amount of day to day tasks most people will not be able to complete as a lone survivor.</p>
+  </section>
+
+
+  <div class="container mt-2 pro-con-table">
+    <h2>To Group Or Not To Group That Is The Question</h2>
+    <H3>The advantages and disadvantages of groups</h3>            
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Pros</th>
+          <th>Cons</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>More sets of hands to help out</td>
+          <td>More mouths to feed</td>
+        </tr>
+        <tr>
+          <td>Better fighting team</td>
+          <td>Chance of fights within the team</td>
+        </tr>
+        <tr>
+          <td>More intimidating to enemies</td>
+          <td>Draws more unwanted attention </td>
+        </tr>
+        <tr>
+          <td>More skills available</td>
+          <td>Chance of backstabbing</td>
+        </tr>
+        <tr>
+          <td>Increased defensive shifts</td>
+          <td>More space to defend </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
-    <section>
-      
-      </div>
-      
-      <form id="Enlistform">
-          <div class="row">
-              <div class="col-12 col-md-10 offset-md-1 col-lg-6 offset-lg-3 text-center">
-                <div class="row ">
-                  <div class=" resistance-box ">
-                      <h1 class="text-center">Join The Resistance!</h1>
-                      <h2>testing  a new title.</h2>
-                  </div>
-                  <fieldset>
-                      <legend>Enlistment details</legend>
-                      <label for="firstname">First Name:</label><br>
-                      <input id="firstname" type="text" name="first-name" placeholder="..." required><br>
-                      <label for="surname">Surname:</label><br>
-                      <input id="surname" type="text" name="surname" placeholder="....." required><br>
-                      <label for="email">Email Address:</label><br>
-                      <input id="email" type="email" name="email" placeholder="......"
-                          required><br>
-                          <label for="text-box">Your Statment:</label><br>
-                          <textarea id="text-box" name="message" placeholder="Type here"></textarea><br>
-                  </fieldset>
-              </div>
-          </div>
-      </form>
+  <section class="container zombie-info-text-top">
+    <h1 class="display-4 know-your-enemy-text">Don't Worry Be Happy...</h1>
+    <h2 class="quote">
+      <i>"Difficult roads often lead to beautiful destinations. The best is yet to come."</i> -
+      Zig Ziglar
+    </h2>
+    <p>
+      Sooner or later you're going to need help let's face it, you can't do
+      everything by yourself, right?
+    </p>
+    <p>
+    <P>
+      During the apocalypse, you may choose to survive alone or you may try to form a group with like-minded survivors.
+      If you decide on enlisting fellows into your cause (You really should have some friends at the end times) you will
+      want to make sure they are loyal competent, intelligent and brave. Sadly you will want to avoid anyone that can't
+      (won't) contribute anything or decrease your chances of survival.</P>
+    </p>
+    <p> As a general rule, groups are always superior to lone individuals or
+      pairs, in spite of the logistical and group dynamic problems that can
+      come with mid-size to larger groups.</p>
+    <p>
+      After the apocalypse, Life will become drastically different from what it currently is (if you're not living in a
+      warzone that is). The differences may seem extensive, but people still have the same basic needs; they will need
+      to eat, people will still get sick, and there still needs to be some form of order. Because of this, there are a
+      large amount of day to day tasks most people will not be able to complete as a lone survivor.</p>
   </section>
- <!-- </div> -->
 
-  <!--Footer-->
+    <div class="zombie-video-box">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/68iV6cED4-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Video Of a zombie wrap from youtube"></iframe>
+  </div> 
+  <!--Modal guidance from https://getbootstrap.com/docs/5.0/components/modal/-->
 
-  <!--Call to Acation button-->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <form> -->
+          <h4 class="modal-title">Enlistment Details</h4>
+        </div>
+        <div class="modal-body">
+          <form action="/Thankyou.html" method="get" target="_blank">
+            <h3>Pledge your information to join the survivors</h3>
+            <label for="firstname">First Name:</label><br />
+            <input id="firstname" type="text" name="first-name" placeholder="Ikea" required /><br />
+            <label for="surname">Surname:</label><br />
+            <input id="surname" type="text" name="surname" placeholder="le zombi" required /><br />
+            <label for="email">Email Address:</label><br />
+            <input id="email" type="email" name="email" placeholder="l33tZslayer@gmail.com" required /><br />
+            <label for="comment">Comments:</label>
+            <textarea class="form-control" rows="5" id="comment" placeholder="Why Do we need you?"
+              name="text"></textarea>
+            <div class="modal-footer">
+              <button type="button" class="form-close start" data-bs-dismiss="modal">
+                &times;
+              </button>
+              <button type="submit" class="btn-submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer>
-    <div class=" footer action-btn container-fluid">
+    <!--Call to Action button-->
+    <div class="footer action-btn container-fluid">
       <div class="row">
         <div class="col-sm footer-enlist-box">
-          <a href="#" class="btn-Enlist-footer">Join The Resistance</a>
+          <button type="button" class="btn-Enlist-footer" data-bs-toggle="modal" data-bs-target="#myModal">
+            Join The Resistance
+          </button>
         </div>
 
         <!--Links for website-->
         <div class="col-sm footer-index-links">
           <div class="footer-index-box">
             <div class="footer-index-links">
-              <a class="footer-index-link" href="#top" aria-label="Top of page link">Top of page</a>
+              <a class="footer-index-link" href="#top" aria-label="Back to Top">Top of page</a>
               <a class="footer-index-link" href="index.html" aria-label="Zombie survival home page link">Home</a>
               <a class="footer-index-link" href="Zombies.html" aria-label="Zombie page link">Zombies</a>
               <a class="footer-index-link" href="Survival.html" aria-label="Survive page link">Survive</a>
               <a class="footer-index-link" href="Enlist.html" aria-label="Enlist page link">Enlist</a>
             </div>
-           <a class="footer-home-link" href="index.html" aria-label="Link to Zombie survival home page">Zombie Survival UK</a>
-           <a class="footer-email-link" href="mailto:cowpic123@hotmail.com" target="_blank">Email Me</a>
+            <a class="footer-home-link" href="index.html" aria-label="Link to Zombie survival home page">Zombie Survival
+              UK</a>
+            <a class="footer-email-link" href="mailto:cowpic123@hotmail.com" target="_blank">Email Me</a>
           </div>
         </div>
 
@@ -118,20 +219,26 @@
         <div class="col-sm footer-brand-links">
           <div class="footer-brand-box">
             <div class="footer-brand-links">
-            <a class="footer-brand-link" href="https://www.facebook.com/" target="_blank" aria-label="link to facebook"><i class="fa-brands fa-facebook"
-             aria-hidden="true"></i></a>
-            <a class="footer-brand-link" href="https://www.amazon.com/" target="_blank" aria-label="link to Amazon"><i class="fa-brands fa-amazon"
-             aria-hidden="true"></i></a>
-            <a class="footer-brand-link" href="https://www.imdb.com/" target="_blank" aria-label="link to Imdb"><i class="fa-brands fa-imdb"
-             aria-hidden="true"></i></a>
-            <a class="footer-brand-link" href="https://www.youtube.com/" target="_blank" aria-label="link to Youtube"><i class="fa-brands fa-youtube"
-             aria-hidden="true"></i></a>
+              <a class="footer-brand-link" href="https://www.facebook.com/" target="_blank"
+                aria-label="link to facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+              <a class="footer-brand-link" href="https://www.amazon.com/" target="_blank" aria-label="link to Amazon"><i
+                  class="fa-brands fa-amazon" aria-hidden="true"></i></a>
+              <a class="footer-brand-link" href="https://www.imdb.com/" target="_blank" aria-label="link to Imdb"><i
+                  class="fa-brands fa-imdb" aria-hidden="true"></i></a>
+              <a class="footer-brand-link" href="https://www.youtube.com/" target="_blank"
+                aria-label="link to Youtube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
             </div>
-            <p class="footer-Copyright"><small>&copy; 2022. All Rights Reserved.</small></p>
+            <p class="footer-Copyright">
+              <small>&copy; 2022. All Rights Reserved.</small>
+            </p>
           </div>
         </div>
       </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
