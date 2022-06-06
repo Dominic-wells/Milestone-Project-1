@@ -1,8 +1,4 @@
 body {
-	/* width: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #2F4858; */
 	font-size: 18px;
 	font-family: "Roboto Condensed", sans-serif;
 	color: #000;
@@ -166,10 +162,8 @@ h2 {
 
 /* ---- Modal-form ---- */
 
-
 .modal-content {
-	/* background-color: #4a572c; */
-	/* color: #4a572c; */
+	text-align: center;
 }
 
 .modal-header {
@@ -179,14 +173,14 @@ h2 {
 
 .form-close {
 	background-color: #fcf1c8;
-	border-color: #fcf1c8;
+	/* border-color: #fcf1c8; */
 	justify-content: left;
 }
 
 .form-close:hover {
 	color: #fcf1c8;
 	background: #1e3030;
-	border-color: #1e3030;
+	/* border-color: #1e3030; */
 }
 
 .modal-title {
@@ -194,7 +188,6 @@ h2 {
 	justify-content: center;
 	color: #fff;
 }
-
 
 .modal-body {
 	background-color: #fcf1c8;
@@ -208,26 +201,13 @@ h2 {
 
 .btn-submit {
 	background-color: #fcf1c8;
-	border-color: #fcf1c8;
+	/* border-color: #fcf1c8; */
 }
 
 .btn-submit:hover {
 	color: #fcf1c8;
 	background: #1e3030;
-	border-color: #1e3030;
 }
-
-/* 
-.landing-page-container {
-	padding: 0;
-	background: url("assets/images/zombie-start.jpg") no-repeat center center;
-	min-height: 75vh;
-	text-align: center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-} */
 
 @media screen and (max-width: 420px) {
 	#hero {
@@ -383,14 +363,9 @@ h2 {
 
 .card-title {
 	font-size: 20px;
-	font-style: bold;
 	color: #1e3030;
-	/* color: red; */
 	font-family: "Roboto Flex", sans-serif;
-	/* font-family: 'Anton', sans-serif; */
 }
-
-.card-body {}
 
 .btn-imdb {
 	font-family: "Roboto Condensed", sans-serif;
@@ -461,8 +436,6 @@ fieldset {
 	margin-top: 8px;
 }
 
-
-
 .carousel slide {
 	margin-top: 40px;
 }
@@ -477,13 +450,17 @@ video {
 }
 
 .video-box {
-	margin-top: 40px;
+	margin-top: 50px;
 }
 
 /* Gradient transparent - color - transparent */
 /*---- https://css-tricks.com/examples/hrs/ ----*/
+
 hr.shadow {
 	border: 0;
 	height: 1px;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to right,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.75),
+			rgba(0, 0, 0, 0));
 }
