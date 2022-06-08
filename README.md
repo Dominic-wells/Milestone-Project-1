@@ -4,7 +4,7 @@ Code-Institute Diploma in Web Development
 
 ![alt text](assets/readme-assets/websitemockup.png)
 
-[---Come see the Live Site---](https://dominic-wells.github.io/Milestone-Project-1/index.html)
+[---Come see the Live Site---](https://dominic-wells.github.io/Milestone-Project-1/index.html){:target="\_blank"}
 
 # Table of Contents
 
