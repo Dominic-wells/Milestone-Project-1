@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "/index.html",
+  "start_url": "https://dominic-wells.github.io/Milestone-Project-1/index.html",
   "description": "A comical yet informative zombie survival hangout with information about zombies",
   "icons": [
     {
