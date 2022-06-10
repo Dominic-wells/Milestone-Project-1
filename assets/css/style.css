@@ -74,7 +74,11 @@ h2 {
   color: #1e3030;
 }
 
-.active a {
+.active-page {
+  color: #fff;
+}
+
+.active-page:hover {
   color: #fcf1c8;
 }
 
