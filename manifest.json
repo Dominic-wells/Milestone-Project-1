@@ -28,11 +28,6 @@
       "src": "/assets/images/favicon/favicon-16x16.png",
       "sizes": "16x16",
       "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x",
-      "type": "image/png"
     }
   ]
 }
