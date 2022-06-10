@@ -16,6 +16,7 @@ Code-Institute Diploma in Web Development
    - [Typography](#Typography)
    - [Skeleton](#skeleton)
    - [Site theme](#Site-theme)
+   - [Features](##Features)
 
 # Introduction
 
@@ -79,7 +80,7 @@ with sans-serif as the default backup.
 
 I wanted the overall site to not distract the visitors from the information provided. A minimalist aesthetic has been adopted, using simple fonts and complementing colouring. I chose to incorporate high-quality images throughout the entire website attempting to avoid low-quality images and illustrations. I also avoided overusing visual effects and some users find them too distacting.
 
-## skeleton
+## Skeleton
 
 A physical sketchbook was used to create the first draft of a wireframe as it provided a very fast easily modifiable platform for a rough design plan.
 
@@ -94,21 +95,97 @@ Overall I enjoyed the design development stage of the project and I felt letting
 Sketchbook Design:
 
 <details><summary>A rough wireframe design in a sketchbook desktop style</summary><img src="assets/readme-assets/wireframe/sketchbook2.jpg"></details>
-<details><summary>A rough wireframe design in a sketchbook mobile style</summary><img src="assets/readme-assets/wireframe/sketchbook1.jpg"></details>
+<details><summary>A rough wireframe design in a sketchbook mobile style</summary><img src="assets/readme-assets/wireframe/sketchbook1.jpg"></details><br>
 
 Balsamiq original Design:
 
-<details><summary>A rough wireframe design in Balsamiq desktop style</summary><img src="assets/readme-assets/wireframe/firstpage.png"></details>
-<details><summary>A rough wireframe design in Balsamiq mobile style</summary><img src="assets/readme-assets/wireframe/firstpagemob.png"></details>
-<details><summary>A rough wireframe design in Balsamiq desktop style</summary><img src="assets/readme-assets/wireframe/secondpage.png"></details>
-<details><summary>A rough wireframe design in Balsamiq mobile style</summary><img src="assets/readme-assets/wireframe/secondpagemob.png"></details>
-<details><summary>A rough wireframe design in Balsamiq desktop style</summary><img src="assets/readme-assets/wireframe/thirdpage.png"></details>
-<details><summary>A rough wireframe design in Balsamiq mobile style</summary><img src="assets/readme-assets/wireframe/thirdpagemob.png"></details>
-<details><summary>A rough wireframe design in Balsamiq desktop style</summary><img src="assets/readme-assets/wireframe/fourthpage.png"></details>
-<details><summary>A rough wireframe design in Balsamiq mobile style</summary><img src="assets/readme-assets/wireframe/fourthpagemob.png"></details>
+<details><summary>A rough wireframe design in Balsamiq desktop style</summary><img src="assets/readme-assets/Wireframe/firstpage.png"></details>
+<details><summary>A rough wireframe design in Balsamiq mobile style</summary><img src="assets/readme-assets/Wireframe/firstpagemob.png"></details>
+<details><summary>A rough wireframe design in Balsamiq desktop style</summary><img src="assets/readme-assets/Wireframe/secondpage.png"></details>
+<details><summary>A rough wireframe design in Balsamiq mobile style</summary><img src="assets/readme-assets/Wireframe/secondpagemob.png"></details>
+<details><summary>A rough wireframe design in Balsamiq desktop style</summary><img src="assets/readme-assets/Wireframe/thirdpage.png"></details>
+<details><summary>A rough wireframe design in Balsamiq mobile style</summary><img src="assets/readme-assets/Wireframe/thirdpagemob.png"></details>
+<details><summary>A rough wireframe design in Balsamiq desktop style</summary><img src="assets/readme-assets/Wireframe/fourthpage.png"></details>
+<details><summary>A rough wireframe design in Balsamiq mobile style</summary><img src="assets/readme-assets/Wireframe/fourthpagemob.png"></details>
 
-Balsamiq finale designs Home-page:
+## Balsamiq finale designs
 
-### Photos
+### Home page(index.html)
+
+<details><summary>A wireframe design in Balsamiq Mobile</summary><img src="assets/readme-assets/Wireframe/index-mobile-wireframe.webp"></details>
+<details><summary>A wireframe design in Balsamiq Tablet</summary><img src="assets/readme-assets/Wireframe/index-tablet-wireframe.webp"></details>
+<details><summary>A wireframe design in Balsamiq Desktop</summary><img src="assets/readme-assets/Wireframe/index-desktop-wireframe.webp"></details><br>
+
+### Zombie page(Zombies.html)
+
+<details><summary>A wireframe design in Balsamiq Mobile</summary><img src="assets/readme-assets/Wireframe/zombie-mobile-wireframe.webp"></details>
+<details><summary>A wireframe design in Balsamiq Tablet</summary><img src="assets/readme-assets/Wireframe/zombie-tablet-wireframe.webp"></details>
+<details><summary>A wireframe design in Balsamiq Desktop</summary><img src="assets/readme-assets/Wireframe/zombie-desktop-wireframe.webp"></details><br>
+
+### Survive page(Survival.html)
+
+<details><summary>A wireframe design in Balsamiq Mobile</summary><img src="assets/readme-assets/Wireframe/survive-mobile-wireframe.webp"></details>
+<details><summary>A wireframe design in Balsamiq Tablet</summary><img src="assets/readme-assets/Wireframe/survive-tablet-wireframe.webp"></details>
+<details><summary>A wireframe design in Balsamiq Desktop</summary><img src="assets/readme-assets/Wireframe/survive-desktop-wireframe.webp"></details><br>
+
+### Enlist page(Enlist.html)
+
+<details><summary>A wireframe design in Balsamiq Mobile</summary><img src="assets/readme-assets/Wireframe/enlist-mobile-wireframe.webp"></details>
+<details><summary>A wireframe design in Balsamiq Tablet</summary><img src="assets/readme-assets/Wireframe/enlist-tablet-wireframe.webp"></details>
+<details><summary>A wireframe design in Balsamiq Desktop</summary><img src="assets/readme-assets/Wireframe/enlist-desktop-wireframe.webp"></details><br>
+
+[Back to top](#zombie-survival-uk)
+
+## Features
+
+-Fully responsive across a wide range of devices and systems<br>
+-A Favicon was added to the webpage to allow ease of identifying zombie survival UK when not currently viewing on the visitor's internet browser
+
+### Site-wide
+
+**1. Navbar**
+
+- Logo maintains visibility on all device sizes
+- Logo acts as the Home button to avoid duplication and clutter
+- Hoverable links provide responsive visual feedback
+- Active links clearly indicate current location on site
+
+**2. Footer**
+
+- Link to top of the page provided to allow easy navigation across all devices
+- Email me link provided to allow contact with the site
+- Social media and relevant icons with blank targets links are used to prevent disruption in the browsing experience
+- Copyright
+- Footer is always positioned at the bottom of the page for consistency and visual appeal across all devices
+- Access to a form where the visitor to provide contact information to "Join the resistance" (currently leads to an Emitpy page with a thank you statement to confirm the form works)
+
+### Individual pages
+
+**3. Home page**
+
+- Full hero image and a Call to action button with an engaging question to make an immediate connection with the visitors
+- A Non-distracting text with a comic description on what the user can Hope to find on the site
+
+**4. Zombies page**
+
+- Boostrap cards use to provide clear distinct groups
+- Progress bars were added within the cards to provide a visual guide to the visitors
+- External site links were added to the cards in the form of buttons to provide visitors access to files the distinct groups were based on
+- A modified ordered list was added to provide users with easy-to-follow rules about zombie survival
+
+**5. Survive page**
+
+- Survival topics are divided into individual sections
+- Links added to an external site when relevant
+- Use of bold text to alert visitors to kill information
+- Details tag used to provide a simple fire-making guide to visitors
+  without overwhelming visitors visual experience
+- An automated yet controllable carousel was used to provide visitors with a range of visual images
+- A video was provided to visitors to demonstrate the need for tools in a survival environment that was responsive to the user inputs (pause and play)
+
+**6. Enlist page**
+
+- A striped table in the theme of the main website colour was used to provide the visitors with information
+- An embed youtube was provided to the visitors as a form of comic information
 
 [Back to top](#zombie-survival-uk)
