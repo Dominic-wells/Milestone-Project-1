@@ -58,7 +58,6 @@ h2 {
 
 .nav-link {
   padding: 0;
-  /* bottom: 0; */
   color: #fcf1c8;
   text-align: center;
   font-size: 0.8rem;
@@ -314,8 +313,6 @@ textarea {
   color: white;
   flex-direction: row;
   padding: 2px;
-  /* width: 10px; */
-  height: 10px;
 }
 
 .footer-brand-link i {
@@ -451,6 +448,7 @@ h3 {
   text-align: center;
 }
 
+/*--Guidence from https://stackoverflow.com/questions/20825211/bootstrap-table-striped-how-do-i-change-the-stripe-background-colour-*/
 .table-striped>tbody>tr:nth-child(odd)>td,
 .table-striped>tbody>tr:nth-child(odd)>th {
   background-color: #4a572c;
