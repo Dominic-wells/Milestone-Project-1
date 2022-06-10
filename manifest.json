@@ -6,28 +6,32 @@
   "display": "browser",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "/index.html",
   "description": "A comical yet informative zombie survival hangout with information about zombies",
   "icons": [
     {
-      "src": "/assets/images/favicon/android-chrome-512x512.png",
+      "src": "assets/images/favicon/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/assets/images/favicon/android-chrome-192x192.png",
+      "src": "assets/images/favicon/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/assets/images/favicon/favicon-32x32.png",
+      "src": "assets/images/favicon/favicon-32x32.png",
       "sizes": "32x32",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/assets/images/favicon/favicon-16x16.png",
+      "src": "assets/images/favicon/favicon-16x16.png",
       "sizes": "16x16",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
