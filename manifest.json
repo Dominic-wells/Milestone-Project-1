@@ -6,7 +6,7 @@
   "display": "browser",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "/index.html",
+  "start_url": "/",
   "description": "A comical yet informative zombie survival hangout with information about zombies",
   "icons": [
     {
