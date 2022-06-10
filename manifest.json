@@ -3,7 +3,7 @@
   "short_name": "ZSUK",
   "theme_color": "#fcf1c8",
   "background_color": "#4a572c",
-  "display": "browser",
+  "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/index.html",
