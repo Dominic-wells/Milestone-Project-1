@@ -17,6 +17,7 @@ Code-Institute Diploma in Web Development
    - [Skeleton](#skeleton)
    - [Site theme](#Site-theme)
    - [Features](##Features)
+4. [Technologies Used](#Technologies-Used)
 
 # Introduction
 
@@ -189,3 +190,79 @@ Balsamiq original Design:
 - An embed youtube was provided to the visitors as a form of comic information
 
 [Back to top](#zombie-survival-uk)
+
+# Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+- Javascript
+
+  - [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Modal form- Video pause/play
+
+  ### Project management
+
+- [GitHub](https://github.com/) - Version control and deployment of live site
+- [Balsamiq](https://balsamiq.com/wireframes/) - Wireframe tool
+- [Visual Studio Code](https://code.visualstudio.com/) - IDE used to code the site
+
+### Theme and styles
+
+- [Bootstrap 5](https://getbootstrap.com/) - Responsive grid and styling framework
+- [favicon.io](https://favicon.io/) - Freetool used to generate the site favicon
+- [Font Awesome](https://fontawesome.com/) - Used for icons on navbar and footer
+- [Google Fonts](https://fonts.google.com/) - Used to load Fonts onto site
+- [photopea](https://www.photopea.com/) - Used to make my Logo
+
+### Image manipulation
+
+- [RedKetchip](https://redketchup.io/image-resizer) - A program used for modifying aspect ratios and file types
+
+### Online resources
+
+- [Youtube](https://www.youtube.com//) -Used for inspiration
+- [Stack Overflow](https://stackoverflow.com/) - Used to find answers
+- [Reddit](https://reddit.com) - Used to engage with the community
+- [W3 Schools](https://www.w3schools.com/) Used to provide issue assistance
+- [bootstrap 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - Documentation used to support issues problem solving and provide guidance on framework features
+
+[Back to top](#zombie-survival-uk)
+
+## Testing
+
+### Automated testing
+
+### Testing Summary:
+
+- Performance
+  - The worst metric was due to issues around The hero image size on the index.html page when viewed in mobile.
+  - A lower score was given on the survival.html due to the larage amount of images
+- Accessibility
+  - The lowest score given was 100%
+- Best Practices
+  - The main issue with the best practice audit was due to my embedded youtube video on the Enlist.html page
+- SEO
+  - The lowest score given was 100%
+
+## Lighthouse images
+
+### Home page
+
+<details><summary>Lighthouse Homepage Mobile</summary><img src="assets/readme-assets/lighthouse/lighthouse-index.png"></details>
+<details><summary>Lighthouse Homepage Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-index-desktop.png"></details><br>
+
+### Zombie page
+
+<details><summary>Lighthouse Zombie page Mobile</summary><img src="assets/readme-assets/lighthouse/lighthouse-zombie.png"></details>
+<details><summary>Lighthouse Zombie page Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-zombie-desktop.png"></details><br>
+
+### Survival page
+
+<details><summary>Lighthouse Survival page Mobile</summary><img src="assets/readme-assets/lighthouse/lighthouse-survival.png"></details>
+<details><summary>Lighthouse Survival page Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-survival-desktop.png"></details><br>
+
+### Enlist page
+
+<details><summary>Lighthouse Enlist page Mobile</summary><img src="assets/readme-assets/lighthouse/lighthouse-enlist.png"></details>
+<details><summary>Lighthouse Enlist page Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-enlist-desktop.png"></details><br>
