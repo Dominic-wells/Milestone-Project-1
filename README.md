@@ -140,7 +140,8 @@ Balsamiq original Design:
 ## Features
 
 -Fully responsive across a wide range of devices and systems<br>
--A Favicon was added to the webpage to allow ease of identifying zombie survival UK when not currently viewing on the visitor's internet browser
+-A Favicon was added to the webpage to allow ease of identifying zombie survival UK when not currently viewing on the visitor's internet browser<br>
+-A modal form with a thank you page
 
 ### Site-wide
 
@@ -224,14 +225,17 @@ Balsamiq original Design:
 - [Youtube](https://www.youtube.com//) -Used for inspiration
 - [Stack Overflow](https://stackoverflow.com/) - Used to find answers
 - [Reddit](https://reddit.com) - Used to engage with the community
-- [W3 Schools](https://www.w3schools.com/) Used to provide issue assistance
-- [bootstrap 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - Documentation used to support issues problem solving and provide guidance on framework features
+- [Amiresponsive](https://ui.dev/amiresponsive#) - Used to make screen shots of the various device breakpoints for responsive design
+- [W3 Schools](https://www.w3schools.com/) -Used to provide issue assistance
+- [Bootstrap 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - Documentation used to support issues problem solving and provide guidance on framework features
 
 [Back to top](#zombie-survival-uk)
 
 ## Testing
 
 ### Automated testing
+
+[Google chromes Lighthouse](https://developer.chrome.com/docs/lighthouse/) built-in developer tool was used for automated testing of the pages in both desktop and mobile views.
 
 ### Testing Summary:
 
@@ -266,3 +270,21 @@ Balsamiq original Design:
 
 <details><summary>Lighthouse Enlist page Mobile</summary><img src="assets/readme-assets/lighthouse/lighthouse-enlist.png"></details>
 <details><summary>Lighthouse Enlist page Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-enlist-desktop.png"></details><br>
+
+### HTML Validation
+
+[W3C Markup Validation Service](https://validator.w3.org/) Used on all pages of website, all passed
+
+<details><summary>Home page</summary><img src="assets/readme-assets/validation/validator-index.png"></details>
+<details><summary>Zombies page</summary><img src="assets/readme-assets/validation/validator-zombies.png"></details>
+<details><summary>Survive page</summary><img src="assets/readme-assets/validation/validator-survival.png"></details>
+<details><summary>Enlist page</summary><img src="assets/readme-assets/validation/validator-enlist.png"></details>
+
+### CSS Validation
+
+[jigsaw.w3 css-validator](https://jigsaw.w3.org/css-validator/) Used on all pages of website, all passed
+
+<details><summary>Home page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-index.png"></details>
+<details><summary>Zombies page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-zombies.png"></details>
+<details><summary>Survive page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-survival.png"></details>
+<details><summary>Enlist page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-enlist.png"></details>
