@@ -1,10 +1,25 @@
+# Testing
+
+## Contents
+
+- [Automated Testing](#automated-testing)
+  - [Testing Summary](#testing-summary)
+  - [Lighthouse Images](#lighthouse-in-devtools) -[Home page](#home-page) -[Zombie page](#zombie-page) -[Survival page](#survival-page) -[Enlist page](#enlist-page)
+  - [HTML Validation](#html-validation)
+  - [CSS Validation](#css-validation)
+  - [Manual Testing](#manual-testing)
+  - [User Stories Testing](#user-stories-testing)
+  - [First Time Visitor](#first-time-visitor)
+  - [Returning Visitor](#returning-visitor)
+  - [frequent Time Visitor](#frequent-visitor-goals)
+
 ## Testing
 
 ### Automated testing
 
 [Google chromes Lighthouse](https://developer.chrome.com/docs/lighthouse/) built-in developer tool was used for automated testing of the pages in both desktop and mobile views.
 
-### Testing Summary:
+### Testing Summary
 
 - Performance
   - The worst metric was due to issues around The hero image size on the index.html page when viewed in mobile.
@@ -15,6 +30,8 @@
   - The main issue with the best practice audit was due to my embedded youtube video on the Enlist.html page
 - SEO
   - The lowest score given was 100%
+
+[Back to top](#Contents)
 
 ## Lighthouse images
 
@@ -42,6 +59,8 @@
 
 <details><summary>Lighthouse Enlist page Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-enlist-desktop.png"></details><br>
 
+[Back to top](#Contents)
+
 ### HTML Validation
 
 [W3C Markup Validation Service](https://validator.w3.org/) Used on all pages of website, all passed
@@ -50,6 +69,8 @@
 <details><summary>Zombies page</summary><img src="assets/readme-assets/validation/validator-zombies.png"></details>
 <details><summary>Survive page</summary><img src="assets/readme-assets/validation/validator-survival.png"></details>
 <details><summary>Enlist page</summary><img src="assets/readme-assets/validation/validator-enlist.png"></details>
+
+[Back to top](#Contents)
 
 ### CSS Validation
 
@@ -60,6 +81,43 @@
 <details><summary>Survive page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-survival.png"></details>
 <details><summary>Enlist page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-enlist.png"></details>
 
+[Back to top](#Contents)
+
+## Manual Testing
+
+The website was viewed with browsers: Google Chrome, Microsoft Edge and Firefox and viewed on Pixle 6/find x 2 Neo phone. All four pages were viewed and the following was checked:
+-The Nav bar worked with no issues on any links<br>
+-The Nav bar resizes correctly<br>
+-The modal form opens and closes<br>
+-The modal form resized correctly<br>
+-The "required" code works on the modal form requiring the visitor to enter the correct information<br>
+-The Footer worked with no issues on any links<br>
+-The Footer resizes correctly<br>
+-Social medial links worked<br>
+-Email me link works<br>
+-All "Hover" effcts worked on desktops.
+
+On the Home page I cheaked in particular:<br>
+-The text section and image section both resized correctly and displayed in the order I wanted (text on top image on bottom)
+
+On the Zombie page I checked in particular:<br>
+-The cards resized correctly on various screen sizes
+
+On the survive page I checked in particular:<br>
+-The text section and image section both resized correctly and displayed in the order I wanted (image on top and text on bottom)<br>
+-The amazon link worked on the water section <br>
+-The "details" worked and displayed the text correctly<br>
+-The list in the weapon section would transform from Two rows to one column on smaller screens<br>
+-The Carousel displayed correctly when resized and was able to change the image by the directional arrows within the image on hover or click on phones/tablets.<br>
+-The tools video displayed correctly when resized and was able to be played on click of video and paused on click on video<br>
+
+On the Enlist page I checked in particular:<br>
+-The striped table displayed correctly when resized to smaller screens<br>
+-The youtube video displayed correctly when reiszed to a smaller screen<br>
+-The youtube video repsoned to vistor inputs such as play, pause and fullscreen.<br>
+
+[Back to top](#Contents)
+
 ## User Stories Testing
 
 | As a client I want                                           |
@@ -68,6 +126,8 @@
 | Visitors to be engaged as soon as they enter the site        |
 | An intuitive non-complex interface that's easy to navigate   |
 | Visitors to be able to reach out and connect if they want to |
+
+[Back to top](#Contents)
 
 ## First Time Visitor
 
@@ -99,11 +159,13 @@
    <details><summary>Survival information</summary><img src="assets/readme-assets/testing/survival-info1.png"></details>
    <details><summary>Survival information</summary><img src="assets/readme-assets/testing/survival-info2.png"></details>
 
-5. As a first-time visitor I want To be able to access and understand the site regardless of my disability><br>
+5. As a first-time visitor I want To be able to access and understand the site regardless of my disability.><br>
    I met this by making the site to a high standard using good practices and accessibility guidelines, testing for accessibility during development
 
 ![Use of aria](assets/readme-assets/testing/aria-use.png)
 ![Assessment of best practices and accessibility](assets/readme-assets/testing/100-in-all.png)
+
+[Back to top](#Contents)
 
 ## Returning Visitor
 
@@ -135,3 +197,32 @@
 ![Thank you page text](assets/readme-assets/testing/thank-you-page.png)
 
 <details><summary>Form page text</summary><img src="assets/readme-assets/testing/modal-form-code.png"></details>
+
+[Back to top](#Contents)
+
+## Frequent Visitor Goals
+
+1. As a frequent visitor, I want to be able to contact the site owner to ask questions and build a connection.<br>
+   I met this by adding an email link in the footer that opens open for the visitor to be able to email me directly
+
+   ![Email link](assets/readme-assets/testing/email-link.png)
+   ![email link code](assets/readme-assets/testing/email-link-code.png)
+
+[Back to top](#Contents)
+
+### Bugs
+
+When developing the website I found issues and bugs.
+| Bug | Solution |
+| ------------- |:-------------:|
+| I found issues where the logo image and icon links would extend under the navbar when viewed on smaller screens | After researching on StackOverflow and documentation on the bootstrap website I found I made the nav bar too small and needed to increase the height due to my logo being larger than standard text. |
+| I found an issue where the logo and nav links were too close even after increasing the navbar size after fixing the previous issue, I however didn't want to increase the height of the current navbar as I had my desired hight already | I resolved this by making a media query where I would increase the navbar height when the website was viewed on smaller screens allowing me to add some padding and centre links and logo |
+| I found an issue with my hero image on my index.html page would not fill the width of the screen, even when I set the padding to o on both sides. It would only work on desktops (larger screens) | I then realised I was using the wrong container and did not need to contain it all within another div, as it added padding |
+| When positioning the "call to action hero box" I wanted the box to not it in the way of the zombie's face during desktop viewing | I increased the padding but found when viewing on small screens such as the Galaxy Fold that the box would be far too low and I didn't like the look, I made a media query to lower some of the padding on smaller screens |
+| I had an issue with a section under my hero section that on viewing with smaller screens it would prioritize the photo first above the text. | After researching I found that I could reorder using the order classes(.order-) making the image an order-last and the text order-first |
+| I had an issue when embedding a youtube video it was not responsive | After researching on google I found some useful information at(https://jasonmkelly.com/jason-m-kelly/2020/3/17/making-your-youtube-videos-responsive). Code and CSS from the above site were used to make the video responsive; I however found the video too large. I resolved this by placing the responsive video into my own made container allowing me to place and size at my own discretion whilst still keeping the resized video properties |
+| I found an issue with images not loading in GitHub pages | I had used the wrong file path, the one I used would work on my local live page but with Github pages |
+| Github would not load videos from my files | I had to use the full address they stored it at( https://github.com/Dominic-wells/Milestone-Project-1/raw/main/assets/images/Axe.mp4 ) |
+| When making the footer I wanted to add a link for the users to be able to email me directly but the link wouldn't open correctly | I needed to add <b>mailto</b> in my herf tag(guidance how to do this at (https://www.w3schools.com/tags/tag_address.asp)) |
+| The Site would not load as fast as I wanted it to| I Improved performance by changing file types and sizes from jpgs to webp|
+| The Progress bars on the card sections were not alining right correctly| I placed them in the wrong div|
