@@ -3,15 +3,19 @@
 ## Contents
 
 - [Automated Testing](#automated-testing)
-  - [Testing Summary](#testing-summary)
+- [Testing Summary](#testing-summary)
   - [Lighthouse Images](#lighthouse-in-devtools) -[Home page](#home-page) -[Zombie page](#zombie-page) -[Survival page](#survival-page) -[Enlist page](#enlist-page)
-  - [HTML Validation](#html-validation)
-  - [CSS Validation](#css-validation)
-  - [Manual Testing](#manual-testing)
-  - [User Stories Testing](#user-stories-testing)
-  - [First Time Visitor](#first-time-visitor)
-  - [Returning Visitor](#returning-visitor)
-  - [frequent Time Visitor](#frequent-visitor-goals)
+- [HTML Validation](#html-validation)
+- [CSS Validation](#css-validation)
+- [Manual Testing](#manual-testing)
+- [User Stories Testing](#user-stories-testing)
+- [Client stories](#client-stories)
+- [First Time Visitor](#first-time-visitor)
+- [Returning Visitor](#returning-visitor)
+- [frequent Time Visitor](#frequent-visitor-goals)
+- [Bugs](#bugs)
+
+---
 
 ## Testing
 
@@ -32,6 +36,8 @@
   - The lowest score given was 100%
 
 [Back to top](#Contents)
+
+---
 
 ## Lighthouse images
 
@@ -61,6 +67,8 @@
 
 [Back to top](#Contents)
 
+---
+
 ### HTML Validation
 
 [W3C Markup Validation Service](https://validator.w3.org/) Used on all pages of website, all passed
@@ -82,6 +90,8 @@
 <details><summary>Enlist page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-enlist.png"></details>
 
 [Back to top](#Contents)
+
+---
 
 ## Manual Testing
 
@@ -116,18 +126,35 @@ On the Enlist page I checked in particular:<br>
 -The youtube video displayed correctly when reiszed to a smaller screen<br>
 -The youtube video repsoned to vistor inputs such as play, pause and fullscreen.<br>
 
+I had my friends test the site on their computers and phones they reported no bugs just isuss with grammer and spelling
+![Fix one](assets/readme-assets/testing/grammer-fix1.png)
+![Fix two](assets/readme-assets/testing/grammer-fix2.png)
+
 [Back to top](#Contents)
+
+---
 
 ## User Stories Testing
 
-| As a client I want                                           |
-| ------------------------------------------------------------ |
-| Educate a wide range of visitors                             |
-| Visitors to be engaged as soon as they enter the site        |
-| An intuitive non-complex interface that's easy to navigate   |
-| Visitors to be able to reach out and connect if they want to |
+## Client stories
+
+1. As a client I want, to educate a wide range of visitors.<br>
+   I met this in the first time visitor section
+
+2. As a client I want, visitors to be engaged as soon as they enter the site.<br>
+   I met this by making a call to action buttion with a question one of the first items they see when visting the site
+
+![Call to action](assets/readme-assets/testing/call-to-action.png)
+
+3. As a client I want, An intuitive non-complex interface that's easy to navigate.<br>
+   I met this in the first time visitor section.
+
+4. As a client I want, Visitors to be able to reach out and connect if they want to.<br>
+   I met this in the frequent visitor section.
 
 [Back to top](#Contents)
+
+---
 
 ## First Time Visitor
 
@@ -167,6 +194,8 @@ On the Enlist page I checked in particular:<br>
 
 [Back to top](#Contents)
 
+---
+
 ## Returning Visitor
 
 1. As a returning visitor, I want to conveniently access social media links so that I can follow on my chosen platforms after visiting the site.<br>
@@ -200,6 +229,8 @@ On the Enlist page I checked in particular:<br>
 
 [Back to top](#Contents)
 
+---
+
 ## Frequent Visitor Goals
 
 1. As a frequent visitor, I want to be able to contact the site owner to ask questions and build a connection.<br>
@@ -209,6 +240,8 @@ On the Enlist page I checked in particular:<br>
    ![email link code](assets/readme-assets/testing/email-link-code.png)
 
 [Back to top](#Contents)
+
+---
 
 ### Bugs
 
@@ -226,3 +259,7 @@ When developing the website I found issues and bugs.
 | When making the footer I wanted to add a link for the users to be able to email me directly but the link wouldn't open correctly | I needed to add <b>mailto</b> in my herf tag(guidance how to do this at (https://www.w3schools.com/tags/tag_address.asp)) |
 | The Site would not load as fast as I wanted it to| I Improved performance by changing file types and sizes from jpgs to webp|
 | The Progress bars on the card sections were not alining right correctly| I placed them in the wrong div|
+
+## [Back to top](#Contents)
+
+---
