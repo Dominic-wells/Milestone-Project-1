@@ -69,6 +69,8 @@
 | An intuitive non-complex interface that's easy to navigate   |
 | Visitors to be able to reach out and connect if they want to |
 
+## First Time Visitor
+
 1. As a first-time visitor, I want to understand the main use of the site within the first 10 seconds.<br>
    I met this by naming the site and adding a logo with an identifying clear name" zombie Survival UK" furthermore I added an introduction to the first page the user would visit.
 
@@ -96,3 +98,40 @@
    <details><summary>Zombie information</summary><img src="assets/readme-assets/testing/zombie-info2.png"></details>
    <details><summary>Survival information</summary><img src="assets/readme-assets/testing/survival-info1.png"></details>
    <details><summary>Survival information</summary><img src="assets/readme-assets/testing/survival-info2.png"></details>
+
+5. As a first-time visitor I want To be able to access and understand the site regardless of my disability><br>
+   I met this by making the site to a high standard using good practices and accessibility guidelines, testing for accessibility during development
+
+![Use of aria](assets/readme-assets/testing/aria-use.png)
+![Assessment of best practices and accessibility](assets/readme-assets/testing/100-in-all.png)
+
+## Returning Visitor
+
+1. As a returning visitor, I want to conveniently access social media links so that I can follow on my chosen platforms after visiting the site.<br>
+   I met this by building social media links with icons that open a new tab when clicked conveniently located in the footer of every page (not Thankyou.html)
+
+![Image of links](assets/readme-assets/testing/social-media-links.png)
+![Code used](assets/readme-assets/testing/social-media-link-code.png)
+
+2. As a returning visitor, I want to have fast access to the information and not get distracted by advertisements.<br>
+   I met this by making use of tools such as lighthouse to optimize the website to improve loading times, I will not load advertisements
+
+   ![Site performace](assets/readme-assets/testing/site-performance.png)
+   <details><summary>Audits Passed 1</summary><img src="assets/readme-assets/testing/audits-passed1.png"></details>
+   <details><summary>Audits Passed 2</summary><img src="assets/readme-assets/testing/audits-passed2.png"></details>
+
+3. As a returning visitor, I want to be able to find the information I want conveniently, not having to read the whole site.<br>
+   I met this by making multiple pages with a different subjects. I also included header titles of different topics within the different pages.
+
+   ![Image of links](assets/readme-assets/testing/pages.png)
+   ![Image of links](assets/readme-assets/testing/page-files.png)
+   ![Image of links](assets/readme-assets/testing/web-title-water.png)
+   ![Image of links](assets/readme-assets/testing/h1-title.png)
+
+4. As a returning visitor, I want To be able to receive updates about zombie survival.<br>
+   I met this by adding a form for the user to be able to interact with the site by adding their contact informatio,the information is not processed as it is beyond scope of this project, once the visitor as entered information they will be directed to a "thank you page").<br>
+
+![Form](assets/readme-assets/testing/modal-form-desktop.png)
+![Thank you page text](assets/readme-assets/testing/thank-you-page.png)
+
+<details><summary>Form page text</summary><img src="assets/readme-assets/testing/modal-form-code.png"></details>
