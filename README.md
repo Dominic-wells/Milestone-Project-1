@@ -40,22 +40,25 @@ This is my first milestone project with the Code Institute on the Full Stack Web
 
 ## User stories
 
-| As a client I want                                         | How I will achieve this                                                                                            |
-| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Visitors to be engaged as soon as they enter the site      | I will make a call to action buttion with a question one of the first items they see                               |
-| An intuitive non-complex interface that's easy to navigate | I will keep to the standard website format(Navbar, Main, Footer) I will also avoid distracting effects and colours |
-| Educate a wide range of visitors                           | I will offer information in a wide range of formats(text, photos, videos and tables)                               |
+| As a client I want                                           |
+| ------------------------------------------------------------ |
+| Educate a wide range of visitors                             |
+| Visitors to be engaged as soon as they enter the site        |
+| An intuitive non-complex interface that's easy to navigate   |
+| Visitors to be able to reach out and connect if they want to |
 
-| As a visitor I want                                                             | How I will achieve this                                                                   |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| To learn about zombies and survival in the UK                                   | I will offer a wide range of information on survival and general zombie knowledge         |
-| To be able to view the site at my convenience at any location                   | I will make the website viewable across a wide range of devive                            |
-| To be able to receive updates about zombie survival                             | I will add a form for the user to be able to interact with the site                       |
-| To be able to find the information I want not having to read the whole site     | I will make multiple pages with different subject information                             |
-| To have fast access to the information and not get distracted by advertisements | I will optimize the website to improve loading times, I will not load advertisements      |
-| To be able to access and understand the site regardless of my disability        | I will make the site to a high standard using good practices and accessibility guidelines |
+| As a first time visitor                                                                                                 |                                                            As a returning visitor                                                            |                                                                                       As a frequent visitor |
+| ----------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------: |
+| As a first-time visitor, I want to understand the main use of the site within the first 10 seconds                      | As a returning visitor, I want to conveniently access social media links so that I can follow on my chosen platforms after visiting the site | As a frequent visitor, I want to be able to contact the site owner to ask questions and build a connection. |
+| As a first-time visitor I want an intuitive non-complex interface that's easy to navigate to the conntent I want to see |                As a returning visitor, I want to have fast access to the information and not get distracted by advertisements                |                                                                                                         $12 |
+| As a first-time visitor I want to be able to view the site at my convenience at any location on my available device     |           As a returning visitor, I want to be able to find the information I want conveniently, not having to read the whole site           |                                                                                                          $1 |
+| As a first-time visitor I want to learn about zombies and survival in the UK                                            |                              As a returning visitor, I want To be able to receive updates about zombie survival                              |                                                                                                       $1600 |
+| As a first-time visitor I want To be able to access and understand the site regardless of my disability                 |                                                                   centered                                                                   |                                                                                                         $12 |
+| zebra stripes                                                                                                           |                                                                   are neat                                                                   |                                                                                                          $1 |
 
 [Back to top](#zombie-survival-uk)
+
+---
 
 # Design
 
@@ -233,58 +236,6 @@ Balsamiq original Design:
 
 ## Testing
 
-### Automated testing
+Please find the testing informaion on the following link
 
-[Google chromes Lighthouse](https://developer.chrome.com/docs/lighthouse/) built-in developer tool was used for automated testing of the pages in both desktop and mobile views.
-
-### Testing Summary:
-
-- Performance
-  - The worst metric was due to issues around The hero image size on the index.html page when viewed in mobile.
-  - A lower score was given on the survival.html due to the larage amount of images
-- Accessibility
-  - The lowest score given was 100%
-- Best Practices
-  - The main issue with the best practice audit was due to my embedded youtube video on the Enlist.html page
-- SEO
-  - The lowest score given was 100%
-
-## Lighthouse images
-
-### Home page
-
-<details><summary>Lighthouse Homepage Mobile</summary><img src="assets/readme-assets/lighthouse/lighthouse-index.png"></details>
-<details><summary>Lighthouse Homepage Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-index-desktop.png"></details><br>
-
-### Zombie page
-
-<details><summary>Lighthouse Zombie page Mobile</summary><img src="assets/readme-assets/lighthouse/lighthouse-zombie.png"></details>
-<details><summary>Lighthouse Zombie page Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-zombie-desktop.png"></details><br>
-
-### Survival page
-
-<details><summary>Lighthouse Survival page Mobile</summary><img src="assets/readme-assets/lighthouse/lighthouse-survival.png"></details>
-<details><summary>Lighthouse Survival page Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-survival-desktop.png"></details><br>
-
-### Enlist page
-
-<details><summary>Lighthouse Enlist page Mobile</summary><img src="assets/readme-assets/lighthouse/lighthouse-enlist.png"></details>
-<details><summary>Lighthouse Enlist page Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-enlist-desktop.png"></details><br>
-
-### HTML Validation
-
-[W3C Markup Validation Service](https://validator.w3.org/) Used on all pages of website, all passed
-
-<details><summary>Home page</summary><img src="assets/readme-assets/validation/validator-index.png"></details>
-<details><summary>Zombies page</summary><img src="assets/readme-assets/validation/validator-zombies.png"></details>
-<details><summary>Survive page</summary><img src="assets/readme-assets/validation/validator-survival.png"></details>
-<details><summary>Enlist page</summary><img src="assets/readme-assets/validation/validator-enlist.png"></details>
-
-### CSS Validation
-
-[jigsaw.w3 css-validator](https://jigsaw.w3.org/css-validator/) Used on all pages of website, all passed
-
-<details><summary>Home page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-index.png"></details>
-<details><summary>Zombies page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-zombies.png"></details>
-<details><summary>Survive page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-survival.png"></details>
-<details><summary>Enlist page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-enlist.png"></details>
+[Link to Testingmd](https://github.com/Dominic-wells/Milestone-Project-1/blob/main/Testing.md)
