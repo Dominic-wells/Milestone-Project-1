@@ -304,6 +304,7 @@ For troubleshooting please see Github documentation [Click here](https://docs.gi
 ## Code
 
 - [Modal guidance from](https://getbootstrap.com/docs/5.0/components/modal/) - Guidance for the modal form
+- [Mainifest.jason](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json) -guidance for mainifest
 - [Progress bar support from](https://getbootstrap.com/docs/5.0/components/progress/) - Guidance for the progress bar
 - [Carousel support from](https://getbootstrap.com/docs/5.2/components/carousel/-->) - Guidance for the carousel
 - [Video code from stack overflow](https://stackoverflow.com/questions/18326973/clicking-html-5-video-element-to-play-pause-video-breaks-play-button)- Java script code for video frame in tool section on survival page
