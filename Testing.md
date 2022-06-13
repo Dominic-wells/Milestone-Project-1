@@ -2,18 +2,18 @@
 
 ## Contents
 
-- [Automated Testing](#automated-testing)
-- [Testing Summary](#testing-summary)
-  - [Lighthouse Images](#lighthouse-in-devtools) -[Home page](#home-page) -[Zombie page](#zombie-page) -[Survival page](#survival-page) -[Enlist page](#enlist-page)
-- [HTML Validation](#html-validation)
-- [CSS Validation](#css-validation)
-- [Manual Testing](#manual-testing)
-- [User Stories Testing](#user-stories-testing)
-- [Client stories](#client-stories)
-- [First Time Visitor](#first-time-visitor)
-- [Returning Visitor](#returning-visitor)
-- [frequent Time Visitor](#frequent-visitor-goals)
-- [Bugs](#bugs)
+1. [Automated Testing](#automated-testing)
+2. [Testing Summary](#testing-summary)
+3. [Lighthouse Images](#lighthouse-in-devtools) -[Home page](#home-page) -[Zombie page](#zombie-page) -[Survival page](#survival-page) -[Enlist page](#enlist-page)
+4. [HTML Validation](#html-validation)
+5. [CSS Validation](#css-validation)
+6. [Manual Testing](#manual-testing)
+7. [User Stories Testing](#user-stories-testing)
+8. [Client stories](#client-stories)
+9. [First Time Visitor](#first-time-visitor)
+10. [Returning Visitor](#returning-visitor)
+11. [frequent Time Visitor](#frequent-visitor-goals)
+12. [Bugs](#bugs)
 
 ---
 
@@ -35,7 +35,7 @@
 - SEO
   - The lowest score given was 100%
 
-[Back to top](#Contents)
+[Back to top](#contents)
 
 ---
 
@@ -65,7 +65,7 @@
 
 <details><summary>Lighthouse Enlist page Dekstop</summary><img src="assets/readme-assets/lighthouse/lighthouse-enlist-desktop.png"></details><br>
 
-[Back to top](#Contents)
+[Back to top](#contents)
 
 ---
 
@@ -78,8 +78,6 @@
 <details><summary>Survive page</summary><img src="assets/readme-assets/validation/validator-survival.png"></details>
 <details><summary>Enlist page</summary><img src="assets/readme-assets/validation/validator-enlist.png"></details>
 
-[Back to top](#Contents)
-
 ### CSS Validation
 
 [jigsaw.w3 css-validator](https://jigsaw.w3.org/css-validator/) Used on all pages of website, all passed
@@ -87,9 +85,9 @@
 <details><summary>Home page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-index.png"></details>
 <details><summary>Zombies page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-zombies.png"></details>
 <details><summary>Survive page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-survival.png"></details>
-<details><summary>Enlist page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-enlist.png"></details>
+<details><summary>Enlist page</summary><img src="assets/readme-assets/validation/w3c-css-validator-pass-enlist.png"></details><br>
 
-[Back to top](#Contents)
+[Back to top](#contents)
 
 ---
 
@@ -130,7 +128,7 @@ I had my friends test the site on their computers and phones they reported no bu
 ![Fix one](assets/readme-assets/testing/grammer-fix1.png)
 ![Fix two](assets/readme-assets/testing/grammer-fix2.png)
 
-[Back to top](#Contents)
+[Back to top](#contents)
 
 ---
 
@@ -152,7 +150,7 @@ I had my friends test the site on their computers and phones they reported no bu
 4. As a client I want, Visitors to be able to reach out and connect if they want to.<br>
    I met this in the frequent visitor section.
 
-[Back to top](#Contents)
+[Back to top](#contents)
 
 ---
 
@@ -192,9 +190,7 @@ I had my friends test the site on their computers and phones they reported no bu
 ![Use of aria](assets/readme-assets/testing/aria-use.png)
 ![Assessment of best practices and accessibility](assets/readme-assets/testing/100-in-all.png)
 
-[Back to top](#Contents)
-
----
+# [Back to top](#contents)
 
 ## Returning Visitor
 
@@ -225,9 +221,9 @@ I had my friends test the site on their computers and phones they reported no bu
 ![Form](assets/readme-assets/testing/modal-form-desktop.png)
 ![Thank you page text](assets/readme-assets/testing/thank-you-page.png)
 
-<details><summary>Form page text</summary><img src="assets/readme-assets/testing/modal-form-code.png"></details>
+<details><summary>Form page text</summary><img src="assets/readme-assets/testing/modal-form-code.png"></details><br>
 
-[Back to top](#Contents)
+[Back to top](#contents)
 
 ---
 
@@ -239,7 +235,7 @@ I had my friends test the site on their computers and phones they reported no bu
    ![Email link](assets/readme-assets/testing/email-link.png)
    ![email link code](assets/readme-assets/testing/email-link-code.png)
 
-[Back to top](#Contents)
+[Back to top](#contents)
 
 ---
 
@@ -260,6 +256,6 @@ When developing the website I found issues and bugs.
 | The Site would not load as fast as I wanted it to| I Improved performance by changing file types and sizes from jpgs to webp|
 | The Progress bars on the card sections were not alining right correctly| I placed them in the wrong div|
 
-## [Back to top](#Contents)
+[Back to top](#contents)
 
 ---
