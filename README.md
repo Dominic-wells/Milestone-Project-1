@@ -2,7 +2,7 @@
 
 Code-Institute Diploma in Web Development
 
-![alt text](assets/readme-assets/websitemockup.png)
+![image of website mockup](assets/readme-assets/websitemockup.png)
 
 [--Come see the Live Site--](https://dominic-wells.github.io/Milestone-Project-1/index.html)
 
@@ -12,12 +12,16 @@ Code-Institute Diploma in Web Development
 2. [User Experience](#user-experience)
    - [User stories](#user-stories)
 3. [Design](#design)
-   - [Colour Scheme](#Colour-Scheme)
-   - [Typography](#Typography)
+   - [Colour Scheme](#colour-scheme)
+   - [Typography](#typography)
    - [Skeleton](#skeleton)
    - [Site theme](#Site-theme)
-   - [Features](##Features)
+   - [Features](#Features)
 4. [Technologies Used](#Technologies-Used)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+8. [acknowledgements](#acknowledgements)
 
 # Introduction
 
@@ -50,11 +54,10 @@ This is my first milestone project with the Code Institute on the Full Stack Web
 | As a first time visitor                                                                                                 |                                                            As a returning visitor                                                            |                                                                                       As a frequent visitor |
 | ----------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------: |
 | As a first-time visitor, I want to understand the main use of the site within the first 10 seconds                      | As a returning visitor, I want to conveniently access social media links so that I can follow on my chosen platforms after visiting the site | As a frequent visitor, I want to be able to contact the site owner to ask questions and build a connection. |
-| As a first-time visitor I want an intuitive non-complex interface that's easy to navigate to the conntent I want to see |                As a returning visitor, I want to have fast access to the information and not get distracted by advertisements                |                                                                                                         $12 |
-| As a first-time visitor I want to be able to view the site at my convenience at any location on my available device     |           As a returning visitor, I want to be able to find the information I want conveniently, not having to read the whole site           |                                                                                                          $1 |
-| As a first-time visitor I want to learn about zombies and survival in the UK                                            |                              As a returning visitor, I want To be able to receive updates about zombie survival                              |                                                                                                       $1600 |
-| As a first-time visitor I want To be able to access and understand the site regardless of my disability                 |                                                                   centered                                                                   |                                                                                                         $12 |
-| zebra stripes                                                                                                           |                                                                   are neat                                                                   |                                                                                                          $1 |
+| As a first-time visitor I want an intuitive non-complex interface that's easy to navigate to the conntent I want to see |                As a returning visitor, I want to have fast access to the information and not get distracted by advertisements                |                                                                                                             |
+| As a first-time visitor I want to be able to view the site at my convenience at any location on my available device     |           As a returning visitor, I want to be able to find the information I want conveniently, not having to read the whole site           |                                                                                                             |
+| As a first-time visitor I want to learn about zombies and survival in the UK                                            |                              As a returning visitor, I want To be able to receive updates about zombie survival                              |                                                                                                             |
+| As a first-time visitor I want To be able to access and understand the site regardless of my disability                 |                                                                                                                                              |
 
 [Back to top](#zombie-survival-uk)
 
@@ -72,27 +75,23 @@ The core colours I used were Green(#4a572c) Beige(#fcf1c8) Navy(#1e3030), black(
 
 ## Typography
 
-I didn't want the fonts to be too distracting, I limited my fonts to the following;
+I didn't want the fonts to be too distracting so I limited my fonts to three of the following;
 
 - Roboto Condensed
 - Roboto Flex
-- Anton.
+- Anton
 
 with sans-serif as the default backup.
 
 ## Site theme
 
-I wanted the overall site to not distract the visitors from the information provided. A minimalist aesthetic has been adopted, using simple fonts and complementing colouring. I chose to incorporate high-quality images throughout the entire website attempting to avoid low-quality images and illustrations. I also avoided overusing visual effects and some users find them too distacting.
+I wanted the overall site to not distract the visitors from the information provided. A minimalist aesthetic has been adopted, using simple fonts and complementing colouring. I chose to incorporate high-quality images throughout the entire website attempting to avoid low-quality images and illustrations. I also avoided overusing visual effects as some users find them too distacting.
 
 ## Skeleton
 
-A physical sketchbook was used to create the first draft of a wireframe as it provided a very fast easily modifiable platform for a rough design plan.
+A physical sketchbook was used to create the first draft of a wireframe as it provided a very fast easily modifiable platform for a rough design plan.Once I was happy with the basic design I produced a digital wireframe using Balsamiq.
 
-Once I was happy with the basic design I produced a digital wireframe using Balsamiq.
-
-As I started to develop my website I was unhappy with my original designs; for example, I wanted my home page to be more captivating and once made I felt my first design was too distracting. I amended my frameworks after completing my homepage as I felt the new design themes better matched my original goals of the website.
-
-I was unable to make a wireframe for a sign-up page as unhappy with the options available to me on Balsamiq.
+As I started to develop my website I was unhappy with my original designs; for example, I wanted my home page to be more captivating but once I built the page I felt that my first design was too distracting. I amended my frameworks after completing my homepage as I felt that my new design style better matched my original goals for the project. I didn't make a wireframe for the sign-up page as I originally wanted to have a form at the end of a page. I decided for a more clean look and opted for a modal form making use of a call-to-action button on the first page and accessible from a footer on every other page.
 
 Overall I enjoyed the design development stage of the project and I felt letting my design organically grow and not restricting myself to the first design produced a better outcome for the project.
 
@@ -140,6 +139,8 @@ Balsamiq original Design:
 
 [Back to top](#zombie-survival-uk)
 
+---
+
 ## Features
 
 -Fully responsive across a wide range of devices and systems<br>
@@ -160,7 +161,7 @@ Balsamiq original Design:
 - Link to top of the page provided to allow easy navigation across all devices
 - Email me link provided to allow contact with the site
 - Social media and relevant icons with blank targets links are used to prevent disruption in the browsing experience
-- Copyright
+- Copyright information
 - Footer is always positioned at the bottom of the page for consistency and visual appeal across all devices
 - Access to a form where the visitor to provide contact information to "Join the resistance" (currently leads to an Emitpy page with a thank you statement to confirm the form works)
 
@@ -194,6 +195,8 @@ Balsamiq original Design:
 - An embed youtube was provided to the visitors as a form of comic information
 
 [Back to top](#zombie-survival-uk)
+
+---
 
 # Technologies Used
 
@@ -234,8 +237,117 @@ Balsamiq original Design:
 
 [Back to top](#zombie-survival-uk)
 
+---
+
 ## Testing
 
 Please find the testing informaion on the following link
 
 [Link to Testingmd](https://github.com/Dominic-wells/Milestone-Project-1/blob/main/Testing.md)
+
+---
+
+# Deployment
+
+## Create
+
+I created this repository by:
+(1) Logging into Github and clicked the green new button.<br>
+(2) This took me to the page below. I selected no template as I was using visual studio code, not Gitpod the code institute template, named the repository and gave it a description (Code-Institute Diploma in Web Development) and clicked the green create repository button.<br>
+
+<details><summary>Step 1</summary><img src="assets/readme-assets/create1.png"></details>
+<details><summary>Step 2</summary><img src="assets/readme-assets/create2.png"></details>
+
+## Deploy
+
+I deployed the site on Github pages by:
+
+(1)Opened my repository while logged into my Github account.<br>
+(2)Clicked Settings<br>
+(3)Clocked Pages<br>
+(4)On Source I clicked main and root<br>
+(5)Saved and waited for the confirmation<br>
+
+<details><summary>Step 1</summary><img src="assets/readme-assets/deploy1.png"></details>
+<details><summary>Step 2</summary><img src="assets/readme-assets/deploy2.png"></details>
+<details><summary>Step 2</summary><img src="assets/readme-assets/deploy3.png"></details>
+
+## Fork
+
+I Fork my repository:
+
+(1)Sign in to Github and go to my repository<br>
+(2)Click the Fork buttion<br
+
+<details><summary>Fork button</summary><img src="assets/readme-assets/fork.png"></details>
+
+## Clone
+
+To clone my project;
+
+(1)Open my repository<br>
+(2)Click the code button above the list of files.<br>
+(3)Copy the Https link<br>
+(4)In your ide terminal/terminal paste the Url and enter
+
+<details><summary>Step 1</summary><img src="assets/readme-assets/clone1.png"></details>
+<details><summary>Step 2</summary><img src="assets/readme-assets/clone2.png"></details>
+
+For troubleshooting please see Github documentation [Click here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#about-cloning-a-repository)
+
+## [Back to top](#zombie-survival-uk)
+
+---
+
+# Credits
+
+## Code
+
+- [Modal guidance from](https://getbootstrap.com/docs/5.0/components/modal/) - Guidance for the modal form
+- [Progress bar support from](https://getbootstrap.com/docs/5.0/components/progress/) - Guidance for the progress bar
+- [Carousel support from](https://getbootstrap.com/docs/5.2/components/carousel/-->) - Guidance for the carousel
+- [Video code from stack overflow](https://stackoverflow.com/questions/18326973/clicking-html-5-video-element-to-play-pause-video-breaks-play-button)- Java script code for video frame in tool section on survival page
+
+Please read style.css comments to find Css Code Credits
+
+## Media
+
+## Home Page
+
+- [pexels.com cottonbro](https://www.pexels.com/) -Images from:<br>
+  <b>@cottonbro:</b>apocalypse.webp, Zombie-background.webp
+
+## Zombie Page
+
+- [pexels.com](https://www.pexels.com/) -Images from<br>
+  <b>@cottonbro:</b> magic.webp, zombie-group.webp,
+- [pixabay.com](https://pixabay.com/illustrations/animals-pets-animal-doberman-dog-4376545/) -Images from:<br>
+  <b>INovakArt:</b> Zombie-dog.webp image fromqimono Virus.webp
+
+## Survival Page
+
+- [pexels.com](https://www.pexels.com/)- Images from:<br>
+  <b>@cottonbro:</b> food.webp, coat.webp, weapon.webp Medication.webp, cut-face.webp<br>
+  <b>@Vidal Balielo Jr:</b> first-aid.webp, Foot.webp<br>
+  <b>@Karolina Grabowska:</b> Hygiene.webp<br>
+  <b>@Samad Deldar:</b>water.webp<br>
+  <b>@Ayman Nouas:</b>Fire.webp<br>
+  <b>@Free axe videos:</b> Axe.mp4<br>
+
+-[unsplash.com](https://unsplash.com/) -Images for <b>matbapo:</b> first-aid.wpeb
+
+## Enlist Page
+
+[Will mcdaniel zombie rap](https://www.youtube.com/watch?v=68iV6cED4-0)- Youtube video from Will Mcdaniel
+
+---
+
+[Back to top](#zombie-survival-uk)
+
+### Acknowledgements
+
+- Code institute.
+- Jack my Mentor
+- My parnter for looking after my puppy Bowie when I was busy coding!
+
+---
